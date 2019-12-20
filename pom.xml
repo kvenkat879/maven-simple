@@ -18,7 +18,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>c9f16f5653b2-releases</name>
+        <url>http://3.82.67.240:8081/artifactory/Jenkins-release</url>
+    </repository>
+</distributionManagement>
   <build>
     <plugins>
     
